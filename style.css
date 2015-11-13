@@ -1,0 +1,265 @@
+//my style sheet for the main site and other things...
+
+body{
+	background-image : url(back3.png);
+	background-opacity : 0.1;
+	background-color : #A3000F;
+}
+
+// coded by afzal a.k.a. h4xt4rd
+
+#round{
+	border-width : 10px;
+	border-radius : 100px 30px;
+	background-color : #99FF66;
+	font-size : 30px;
+	font-family : sans, serif, times new roman;
+	border-color : #99FF66;
+	border-style : solid;
+}
+
+#round2{
+	border-width : 8px;
+	border-radius : 20px;
+	background-color : #FFA347;
+	border-style : solid;
+	font-size : 20px;
+	font-family : lucida console;
+	border-color : #FFA347;
+}
+
+#box{
+	border-style : solid;
+	border-style: outset;
+	border-width : 10px;
+	border-color : #5C85FF;
+	border-radius : 20px 30px;
+	background-color : #5C85FF;
+	font-family :  'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+#deephouse{
+	border-style :groove;
+	border-width : 10px;
+	border-radius : 10px 15px;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 13px;
+	background-color: #A6A600;
+	border-color : #A6A600;
+}
+
+#dubstep{
+	border-style :groove;
+	border-width : 10px;
+	border-radius : 10px 15px;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 13px;
+	background-color : #7A00CC;
+	border-color: #7A00CC;
+}
+
+#trapmusic{
+	border-style :groove;
+	border-width : 10px;
+	border-radius : 10px 15px;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 13px;
+	background-color:#33CCFF ;
+	border-color: #33CCFF;
+}
+
+#progressive{
+	border-style :groove;
+	border-color : #FF6666;
+	background-color : #FF6666;
+	border-width : 10px;
+	border-radius : 10px 15px;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 13px;
+}
+
+div{
+	position : relative;
+	-webkit-animation-name : first;
+	-webkit-animation-duration : 1s;
+	animation-name : first;
+	animation:duration : 1s;
+	animation-name: move;
+	animation:duration : 1s;
+}
+
+@-webkit-keyframes first{
+	0%{
+		opacity : 0;
+	}
+	5%{
+		opacity : 0.2; 
+		border-radius : 20px 10px;
+	}
+	10%{
+		opacity : 0.4;
+		border-radius : 100px 20px 30px 23px;
+	}
+	15%{
+		opacity: 0.6; 
+		border-radius : 240px 20px;
+	}
+	20%{
+		opacity : 0.8;
+		border-radius : 20px 10px;
+		}
+	25%{
+		opacity : 1.0; 
+		border-radius : 100px 20px 30px 23px;
+
+	}
+	30%{
+		opacity : 0.8; 
+	}
+	35%{
+		opacity : 0.6;
+		border-radius : 20px 10px;
+	}
+	40%{
+		opacity : 0.4;
+		border-radius : 100px 20px 30px 23px;
+
+	}
+	45%{
+		opacity : 0.2;
+	}
+	50%{
+		opacity : 0;
+		border-radius : 20px 10px;
+	}
+	55%{
+		opacity : 0.2;
+		border-radius : 100px 20px 30px 23px;
+
+	}
+	60%{
+		opacity : 0.4;
+		border-radius : 100px 20px 30px 23px;
+
+	}
+	65%{
+		border-radius : 20px 10px;
+		opacity : 0.6;
+	}
+	70%{
+		opacity : 0.8;
+	}
+	75%{
+		opacity : 1;
+		border-radius : 100px 20px 30px 23px;
+
+	}
+	80%{
+		opacity: 0.8;
+		border-radius : 20px 10px;
+	}
+	85%{
+		opacity : 0.6;
+	}
+	90%{
+		opacity : 0.8;
+		border-radius : 100px 20px 30px 23px;
+
+	}
+	95%{
+		opacity : 0.9;
+		border-radius : 20px 10px;
+	}
+	100%{
+		opacity : 1;
+	}
+}
+
+#dubstepround{
+	border-width : 6px;
+	border-style : groove;
+	border-color: #7A00F4;
+	background-color : #7A00F4;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size : 43px;
+	border-radius : 90px 70px;
+}
+
+#yoda{
+	background-color : #FF9900;
+	border-width : 10px;
+	border-style : inset;
+	border-color : #FF9900;
+	border-radius : 100px 200px ;
+}
+
+#deepimage{
+	background-color :#33CCFF;
+	border-width : 10px;
+	border-style: solid;
+	border-color : #33CCFF;
+	border-radius : 500px 10px 400px 20px;
+}
+
+#deepheader{
+	background-color :#33CCFF;
+	border-width : 20px;
+	border-style: solid;
+	border-color : #33CCFF;
+	border-radius : 500px 10px 400px 20px;
+	font-size: 43px;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	border-style:solid;
+}
+
+#trapimage{
+	background-color: #FF6600;
+	border-width : 10px;
+	border-style : groove;
+	border-radius : 19px 120px 190px ;
+	border-color:#FF6600;
+}
+
+#trapheader{
+	background-color: #FF3333;
+	border-width : 20px;
+	border-color: #FF3333;
+	border-style:inset;
+	font-size : 42px; 
+	border-radius:20px 1px 24px 2px;
+	font-family:font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+#progressiveimage{
+	background-color: #FFCC00;
+	border-width : 10px;
+	border-color:#FFCC00;
+	border-style:solid;
+	font-size: 42px;
+	font-family:font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	border-radius:20px 10px 20px 24px;
+}
+
+#progressiveheader{
+	background-color:#FFFF00;
+	border-color:#FFFF00;
+	border-width:10px;
+	border-style:outset;
+	font-family:font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	border-radius:20px 10px 20px 24px;
+	font-size:42px; 
+}
+
+#dubstepplay{
+	background-color:
+}
+
+#deephouseplay{
+	background-color : #009999;
+	border-color : #009999;
+	border-width : 10px;
+	border-style:double;
+	font-family:font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	border-radius: 2000px 200px;
+}
